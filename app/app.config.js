@@ -11,5 +11,9 @@ angular
                 .when('/episodesList/:seriesId', {
                     template: '<episodes-list></episodes-list>'
                 })
+                .when('/episode/:episodeId', {
+                    template: '<episode-grid></episode-grid>'
+                })
+                .otherwise('/seriesList')
         }
     ]);

@@ -5,5 +5,6 @@ angular
         'ngRoute', 
         'core',
         'episodesList',
-        'seriesList']
+        'seriesList',
+        'episodeGrid']
         );

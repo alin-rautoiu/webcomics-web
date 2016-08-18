@@ -1,4 +1,3 @@
 'use strict';
 
-// Define the `core.series` module
-angular.module('core.episode', ['ngResource']);
+angular.module('core.episode', ['ngResource'])

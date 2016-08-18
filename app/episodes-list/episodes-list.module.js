@@ -1,4 +1,4 @@
 'use strict';
 
 angular
-    .module('episodesList', ['ngRoute', 'core.episode']);
+    .module('episodesList', ['ngRoute', 'core.episodes']);
