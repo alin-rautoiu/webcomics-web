@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+    <meta charset="utf-8">
+    <title>View</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-resource.min.js"></script>
+    
+    <script src="app.module.js"></script>
+    <script src="app.config.js"></script>
+    <script src="core/core.module.js"></script>
+    <script src="core/series/series.module.js"></script>
+    <script src="core/series/series.service.js"></script>
+    <script src="core/episode/episode.module.js"></script>
+    <script src="core/episode/episode.service.js"></script>
+    <script src="series-list/series-list.module.js"></script>
+    <script src="series-list/series-list.component.js"></script>
+    <script src="episodes-list/episodes-list.module.js"></script>
+    <script src="episodes-list/episodes-list.component.js"></script>
+</head>
+
+<div class="view-container">
+    <div ng-view class="view-frame"></div>
+</div>
+
+</html>
