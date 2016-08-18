@@ -1,7 +1,7 @@
 angular
     .module('episodeGrid')
     .component('episodeGrid', {
-        template:'<div class="row" ng-repeat="row in $ctrl.rows"><div ng-repeat="panel in row.panels"><div class="col s12 m{{panel.colspan * (12 / $ctrl.numColumns)}}"><img ng-src="{{panel.path}}"></div></div></div>',        
+        template:'<div class="row" ng-repeat="row in $ctrl.rows"><div ng-repeat="panel in row.panels" class="col s12 l{{panel.colspan * (12 / $ctrl.numColumns)}}"><img ng-src="{{panel.path}}"></div></div>',        
         controller: ['$routeParams', 'Episode',
             function EpisodeGridController($routeParams, Episode) {
                 var self = this;
